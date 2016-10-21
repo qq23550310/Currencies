@@ -1,11 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
+    useLibrary 'org.apache.http.legacy'
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
     defaultConfig {
         applicationId "gerber.apress.com.currencies"
-        minSdkVersion 11
+        minSdkVersion 9
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
