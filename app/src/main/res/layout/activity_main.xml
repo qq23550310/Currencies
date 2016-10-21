@@ -5,7 +5,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000"
+    android:background="@color/black"
     tools:context="gerber.apress.com.currencies.MainActivity"
     android:orientation="vertical">
 
@@ -43,7 +43,7 @@
                 android:layout_weight="15"
                 android:layout_gravity="bottom"
                 android:text="Enter foreign currency amount here"
-                android:textColor="#666"
+                android:textColor="@color/grey_med"
                 android:textSize="12sp"
                 />
 
@@ -54,7 +54,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_weight="20"
-        android:background="#222"
+        android:background="@color/grey_dark"
         android:orientation="horizontal"
         >
         <EditText
@@ -64,11 +64,11 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="#111"
+            android:background="@color/grey_very_dark"
             android:digits="0123456789"
             android:gravity="center_vertical"
             android:inputType="numberDecimal"
-            android:textColor="#FFF"
+            android:textColor="@color/white"
             android:textSize="30sp"
             />
         <requestFocus/>
@@ -82,7 +82,7 @@
         android:layout_marginRight="10dp"
         android:layout_weight="10"
         android:text="Calculate"
-        android:textColor="#AAA"
+        android:textColor="@color/grey_light"
         />
     <LinearLayout
         android:layout_width="match_parent"
@@ -99,7 +99,7 @@
             android:layout_marginLeft="10dp"
             android:gravity="bottom"
             android:text="Home Currency"
-            android:textColor="#ff22e9ff"
+            android:textColor="@color/turquoise"
             />
         <Spinner
             android:id="@+id/spn_hom"
@@ -118,7 +118,7 @@
             android:layout_weight="15"
             android:gravity="bottom"
             android:text="Calculated result in home currency:"
-            android:textColor="#666"
+            android:textColor="@color/grey_med"
             android:textSize="12sp"
         />
 
@@ -130,7 +130,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_weight="20"
-        android:background="#222"
+        android:background="@color/grey_dark"
         >
 
         <TextView
@@ -140,7 +140,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginRight="5dp"
             android:layout_marginLeft="5dp"
-            android:background="#333"
+            android:background="@color/grey_med_dark"
             android:gravity="center_vertical"
             android:textSize="30sp"
             android:typeface="normal"
