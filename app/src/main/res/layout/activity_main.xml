@@ -23,7 +23,7 @@
             android:layout_weight="30"
             android:gravity="bottom"
             android:text="Foreigin Currency"
-            android:textColor="@color/text_bule"
+            android:textColor="@color/turquoise"
             />
 
         <Spinner
